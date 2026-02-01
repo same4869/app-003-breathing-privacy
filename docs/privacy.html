@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>呼吸视界 隐私政策</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0b0f17;
+        --card: #131a26;
+        --text: #e8eef9;
+        --muted: #98a3b7;
+        --accent: #22d3ee;
+        --accent-2: #0ea5e9;
+        --border: rgba(255, 255, 255, 0.08);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+        background: radial-gradient(1200px 800px at 20% -10%, rgba(34, 211, 238, 0.12), transparent 60%),
+                    radial-gradient(1000px 600px at 100% 0%, rgba(14, 165, 233, 0.12), transparent 55%),
+                    var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      .wrap {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px 80px;
+      }
+      .hero {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 20px 24px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 24px;
+        letter-spacing: 0.5px;
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .toc {
+        margin: 20px 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .toc a {
+        color: var(--text);
+        text-decoration: none;
+        border: 1px solid var(--border);
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+        background: rgba(255, 255, 255, 0.03);
+      }
+      section {
+        margin-top: 28px;
+        padding: 18px 20px;
+        background: rgba(19, 26, 38, 0.7);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+      }
+      h2 {
+        margin: 0 0 8px;
+        font-size: 16px;
+        color: var(--accent);
+      }
+      ul {
+        margin: 8px 0 0 20px;
+        padding: 0;
+      }
+      li { margin: 6px 0; }
+      .note {
+        color: var(--muted);
+        font-size: 12px;
+      }
+      .divider {
+        height: 1px;
+        background: var(--border);
+        margin: 24px 0;
+      }
+      a.mail {
+        color: var(--accent-2);
+        text-decoration: none;
+      }
+      footer {
+        margin-top: 28px;
+        color: var(--muted);
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="hero">
+        <h1>呼吸视界 隐私政策</h1>
+        <div class="meta">更新日期：2026 年 2 月 1 日</div>
+        <p class="note">本政策适用于「呼吸视界」iOS 应用，说明我们如何处理与你相关的数据与权限。</p>
+        <div class="toc">
+          <a href="#promise">核心承诺</a>
+          <a href="#data">我们处理的数据</a>
+          <a href="#permission">权限说明</a>
+          <a href="#storage">存储与删除</a>
+          <a href="#third">第三方服务</a>
+          <a href="#update">政策更新</a>
+          <a href="#contact">联系我们</a>
+        </div>
+      </div>
+
+      <section id="promise">
+        <h2>核心承诺</h2>
+        <ul>
+          <li>不上传训练数据：训练记录、感受与设置仅保存在你的设备本地。</li>
+          <li>无账号体系：不要求注册登录，不收集身份信息。</li>
+          <li>无广告与第三方统计：当前版本不集成广告或第三方分析 SDK。</li>
+        </ul>
+      </section>
+
+      <section id="data">
+        <h2>我们处理的数据</h2>
+        <ul>
+          <li>训练记录：时长、模式、时间、训练前后感受、课程进度等。</li>
+          <li>应用设置：音景选择、提醒时间、触觉强度、Pro 状态等偏好设置。</li>
+          <li>分享素材：仅在你保存海报时生成，并写入你的相册。</li>
+        </ul>
+        <p class="note">上述数据均存储在本地，不会上传至服务器。</p>
+      </section>
+
+      <section id="permission">
+        <h2>权限说明</h2>
+        <ul>
+          <li>通知权限：用于本地打卡提醒，可在系统设置中随时关闭。</li>
+          <li>相册写入权限：用于保存训练分享卡片，仅写入，不读取你的照片。</li>
+        </ul>
+      </section>
+
+      <section id="storage">
+        <h2>数据存储与删除</h2>
+        <ul>
+          <li>本地存储：数据保存在设备本地（SwiftData / UserDefaults）。</li>
+          <li>删除方式：卸载应用将清除本地数据。</li>
+          <li>分享卡片：保存到相册的图片由你自行管理与删除。</li>
+        </ul>
+      </section>
+
+      <section id="third">
+        <h2>第三方服务</h2>
+        <p>当前版本不使用任何第三方分析、广告或云同步服务。</p>
+      </section>
+
+      <section id="update">
+        <h2>政策更新</h2>
+        <p>如未来新增云同步或付费功能，我们将更新本政策并在应用内提示。</p>
+      </section>
+
+      <section id="contact">
+        <h2>联系我们</h2>
+        <p>如有隐私相关问题，请联系开发者 SameX：</p>
+        <p><a class="mail" href="mailto:same4869@163.com">same4869@163.com</a></p>
+      </section>
+
+      <footer>
+        本政策仅用于告知用途，不构成法律意见。如需更正式版本，可进一步补充。
+      </footer>
+    </div>
+  </body>
+</html>
