@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>呼吸视界（鸿蒙版）隐私政策</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0b0f17;
+        --card: #131a26;
+        --text: #e8eef9;
+        --muted: #98a3b7;
+        --accent: #22d3ee;
+        --accent-2: #0ea5e9;
+        --border: rgba(255, 255, 255, 0.08);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+        background: radial-gradient(1200px 800px at 20% -10%, rgba(34, 211, 238, 0.12), transparent 60%),
+                    radial-gradient(1000px 600px at 100% 0%, rgba(14, 165, 233, 0.12), transparent 55%),
+                    var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      .wrap {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px 80px;
+      }
+      .hero {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 20px 24px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 24px;
+        letter-spacing: 0.5px;
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .toc {
+        margin: 20px 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .toc a {
+        color: var(--text);
+        text-decoration: none;
+        border: 1px solid var(--border);
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+        background: rgba(255, 255, 255, 0.03);
+      }
+      section {
+        margin-top: 28px;
+        padding: 18px 20px;
+        background: rgba(19, 26, 38, 0.7);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+      }
+      h2 {
+        margin: 0 0 8px;
+        font-size: 16px;
+        color: var(--accent);
+      }
+      ul {
+        margin: 8px 0 0 20px;
+        padding: 0;
+      }
+      li { margin: 6px 0; }
+      .note {
+        color: var(--muted);
+        font-size: 12px;
+      }
+      a.mail {
+        color: var(--accent-2);
+        text-decoration: none;
+      }
+      footer {
+        margin-top: 28px;
+        color: var(--muted);
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="hero">
+        <h1>呼吸视界（鸿蒙版）隐私政策</h1>
+        <div class="meta">更新日期：2026 年 3 月 26 日</div>
+        <p class="note">本政策适用于「呼吸视界」鸿蒙应用，说明我们如何处理与你相关的数据、权限与本地功能。</p>
+        <div class="toc">
+          <a href="#promise">核心承诺</a>
+          <a href="#data">我们处理的数据</a>
+          <a href="#permission">权限说明</a>
+          <a href="#storage">存储与删除</a>
+          <a href="#protection">信息保护</a>
+          <a href="#third">第三方服务</a>
+          <a href="#update">政策更新</a>
+          <a href="#contact">联系我们</a>
+        </div>
+      </div>
+
+      <section id="promise">
+        <h2>核心承诺</h2>
+        <ul>
+          <li>本应用以本地功能为主，训练记录、感受与设置默认仅保存在你的设备本地。</li>
+          <li>当前版本不要求注册登录，不采集手机号、身份证号等身份识别信息。</li>
+          <li>当前版本不接入广告 SDK，不进行个性化广告投放。</li>
+        </ul>
+      </section>
+
+      <section id="data">
+        <h2>我们处理的数据</h2>
+        <ul>
+          <li>训练记录：包括训练时长、模式、时间、训练前后感受、课程进度等，用于在应用内展示历史记录、趋势统计与结果页。</li>
+          <li>应用设置：包括音景选择、提醒时间、触觉反馈、语言、亮屏设置、实时卡片开关等偏好配置，用于保存你的使用习惯。</li>
+          <li>分享素材：仅在你主动生成或保存训练海报、战绩卡时于本地生成对应内容。</li>
+          <li>设备侧运行信息：如音频播放状态、提醒权限状态、界面安全区信息等，仅用于保障应用功能正常运行，不用于用户画像。</li>
+        </ul>
+        <p class="note">上述数据均存储在本地，不会上传至服务器。</p>
+      </section>
+
+      <section id="permission">
+        <h2>权限说明</h2>
+        <ul>
+          <li>通知权限：用于本地训练提醒、打卡提醒与系统通知展示，你可在系统设置中随时关闭。</li>
+          <li>振动权限：用于训练过程中的触觉反馈与节奏提示。</li>
+          <li>相册写入权限：用于保存训练分享卡片，仅在你主动保存图片时使用，不会读取你的相册内容。</li>
+        </ul>
+      </section>
+
+      <section id="storage">
+        <h2>数据存储与删除</h2>
+        <ul>
+          <li>本地存储：训练记录、课程进度、偏好设置等数据保存在设备本地存储中。</li>
+          <li>删除方式：你可通过卸载应用清除本地应用数据；已保存到系统相册中的图片需由你在相册中自行删除。</li>
+          <li>如未来新增云同步、账号或跨设备能力，我们将另行告知并更新本政策。</li>
+        </ul>
+      </section>
+
+      <section id="protection">
+        <h2>信息保护</h2>
+        <ul>
+          <li>我们会按照最小必要原则设计和使用本地数据，仅处理支撑呼吸训练功能所需的信息。</li>
+          <li>我们不会出售、出租或向无关第三方提供你的本地训练数据。</li>
+          <li>如因法律法规、监管要求或司法机关要求需要提供相关信息，我们将依法处理。</li>
+        </ul>
+      </section>
+
+      <section id="third">
+        <h2>第三方服务</h2>
+        <p>当前版本不使用第三方广告、统计分析或云同步服务；若后续接入新的第三方服务，我们会在隐私政策中补充说明。</p>
+      </section>
+
+      <section id="update">
+        <h2>政策更新</h2>
+        <p>如因功能调整、法规要求或服务变化需要更新本政策，我们会通过应用内页面或本网页进行公示。</p>
+      </section>
+
+      <section id="contact">
+        <h2>联系我们</h2>
+        <p>如有隐私相关问题、删除建议或合规反馈，请通过以下方式联系我们：</p>
+        <p><a class="mail" href="mailto:same4869@163.com">same4869@163.com</a></p>
+      </section>
+
+      <footer>
+        本政策用于说明「呼吸视界」鸿蒙应用的隐私处理规则，并作为应用内隐私政策的网页公开版本。
+      </footer>
+    </div>
+  </body>
+</html>
